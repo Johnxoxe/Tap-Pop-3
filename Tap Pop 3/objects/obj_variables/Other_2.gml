@@ -51,7 +51,7 @@ ini_close();
 
 
 
-//GooglePlayServices_Init();
+GooglePlayServices_Init();
 
 
 //achievement_login();

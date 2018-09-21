@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "63c312ae-42b1-427e-9903-b6be2ed53b41",
+            "Value": {
+                "id": "1f7030de-bf0c-44a8-8a62-422e03e0c75f",
+                "resourcePath": "extensions\\GooglePlayLicensingAsExt\\GooglePlayLicensingAsExt.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "66661d75-55f5-475f-b91f-46818b5920a9",
             "Value": {
                 "id": "891cc7b7-158f-4b4b-8eeb-fc3a5da98d39",
@@ -700,6 +708,14 @@
                 "id": "78773edf-b3a6-46dd-8a61-b9e6f0933c0c",
                 "resourcePath": "objects\/obj_pause\/obj_pause.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a195700-a0ab-4004-bc3a-0d3c76f80856",
+            "Value": {
+                "id": "68692820-4389-49c2-aa7b-400b362ce6e0",
+                "resourcePath": "extensions\\MoPubExtension\\MoPubExtension.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -1668,6 +1684,14 @@
                 "id": "69364082-fc24-4f28-8062-df299c63a280",
                 "resourcePath": "sounds\/snd_bomb\/snd_bomb.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f90e051e-c7b2-435d-9fad-7d7a6debb164",
+            "Value": {
+                "id": "87918167-b5b8-4342-a9d5-13f71a449355",
+                "resourcePath": "extensions\\GooglePlayServicesExtension\\GooglePlayServicesExtension.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
