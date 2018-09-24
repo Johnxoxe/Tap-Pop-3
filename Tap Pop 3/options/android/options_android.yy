@@ -22,7 +22,7 @@
     "option_android_google_enable_licensing": false,
     "option_android_google_licensing_public_key": "",
     "option_android_google_services": true,
-    "option_android_google_services_app_id": "",
+    "option_android_google_services_app_id": "122965293538",
     "option_android_icon_hdpi": "${options_dir}\\android\\icons\\hdpi.png",
     "option_android_icon_ldpi": "${options_dir}\\android\\icons\\ldpi.png",
     "option_android_icon_mdpi": "${options_dir}\\android\\icons\\mdpi.png",
@@ -63,7 +63,7 @@
     "option_android_tv_isgame": true,
     "option_android_use_facebook": false,
     "option_android_version": {
-        "build": 0,
+        "build": 3,
         "major": 1,
         "minor": 0,
         "revision": 0

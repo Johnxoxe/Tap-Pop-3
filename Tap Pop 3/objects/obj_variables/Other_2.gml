@@ -5,9 +5,9 @@ view_set_wport(view_camera[0],global.dgw);
 
 
 
-if (file_exists("saveData.ini")){
-	file_delete("saveData.ini");
-}
+//if (file_exists("saveData.ini")){
+//	file_delete("saveData.ini");
+//}
 ini_open("saveData.ini");
 day = ini_read_real("Variables","day",true);
 h_score = ini_read_real("Variables","h_score",0);
@@ -46,6 +46,16 @@ ini_close();
 
 //window_set_size(display_get_width(),display_get_height());
 
+baner = "";
+interstitial = ""; 
+
+if (os_type = os_android){
+	baner = "ca-app-pub-7573928502398857/4147836950";
+	interstitial = "ca-app-pub-7573928502398857/3711054389";
+} else if ( os_type = os_ios ){
+	baner = "ca-app-pub-7573928502398857/2715513397";
+	interstitial = "ca-app-pub-7573928502398857/1685325143"; 
+}
 
 
 
@@ -54,8 +64,8 @@ ini_close();
 GooglePlayServices_Init();
 
 
-//achievement_login();
+achievement_login();
 
-
+achievement_get_info(game_id);
 
 scr_ads(); 

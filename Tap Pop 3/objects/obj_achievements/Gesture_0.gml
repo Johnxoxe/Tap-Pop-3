@@ -1,7 +1,8 @@
-//if achievement_login_status(){
-//	achievement_show_achievements();
-//	show_debug_message("achachachachachachachachachachachahcahcahachachachac");
-//} else {
-//	GooglePlayServices_Init();
-//	achievement_login();
-//}
+if achievement_available(){
+	achievement_show_achievements();
+	show_debug_message("achachachachachachachachachachachahcahcahachachachac");
+} else {
+	achievement_login();
+	GooglePlayServices_Init();
+	
+}

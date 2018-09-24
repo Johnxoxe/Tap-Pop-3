@@ -4,7 +4,7 @@ back_id = layer_background_get_id(lay_id);
 
 
 
-scrDebug();
+//scrDebug();
 
 scrCamera();
 if (day = true)
@@ -21,4 +21,10 @@ else if (day = false )
 if GoogleMobileAds_InterstitialStatus() != "Ready"
 {
 	GoogleMobileAds_LoadInterstitial();
+}
+
+if (keyboard_check_pressed(vk_backspace)){
+	if (room =  rm_start_menu){
+		game_end();
+	}
 }

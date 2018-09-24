@@ -5,16 +5,6 @@
     "name": "obj_gold_stage",
     "eventList": [
         {
-            "id": "b9c783ba-d665-4dc2-80de-821ab7e708e0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "fb780e55-f691-4ee7-a154-49fb77fbd5a2"
-        },
-        {
             "id": "4173cb96-eb2e-424f-81c0-6b756733c7ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
