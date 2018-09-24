@@ -1,4 +1,4 @@
-if ( GoogleMobileAds_InterstitialStatus() = "Ready" ){ global.timesPlayed = 2 }
+if ( GoogleMobileAds_InterstitialStatus() != "Ready" ){ global.timesPlayed = 2 }
 time = 10; 
 alarm[0] = room_speed; 
 image_speed = 0;
