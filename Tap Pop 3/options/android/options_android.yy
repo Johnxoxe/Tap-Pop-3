@@ -18,7 +18,7 @@
     "option_android_gamepad_support": true,
     "option_android_gcm_sender_id": "",
     "option_android_google_apk_expansion": false,
-    "option_android_google_cloud_saving": false,
+    "option_android_google_cloud_saving": true,
     "option_android_google_enable_licensing": false,
     "option_android_google_licensing_public_key": "",
     "option_android_google_services": true,
@@ -63,7 +63,7 @@
     "option_android_tv_isgame": true,
     "option_android_use_facebook": false,
     "option_android_version": {
-        "build": 3,
+        "build": 5,
         "major": 1,
         "minor": 0,
         "revision": 0

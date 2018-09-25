@@ -1,3 +1,4 @@
+window_set_fullscreen(true);
 scrCamera();
 
 view_set_hport(view_camera[0],global.dgh);
@@ -58,14 +59,11 @@ if (os_type = os_android){
 }
 
 
+scr_ads(); 
 
 
 
 GooglePlayServices_Init();
-
-
 achievement_login();
 
-achievement_get_info(game_id);
 
-scr_ads(); 
