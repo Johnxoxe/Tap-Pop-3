@@ -62,8 +62,9 @@ if (os_type = os_android){
 scr_ads(); 
 
 
-
+if (os_type = os_android){
 GooglePlayServices_Init();
 achievement_login();
+}
 
 
